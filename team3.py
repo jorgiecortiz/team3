@@ -1,8 +1,8 @@
 ####
 # Each team's file must define four tokens:
-#     team_name: a string
-#     strategy_name: a string
-#     strategy_description: a string
+#     team_name: Team 3
+#     strategy_name: Going Rogue
+#     strategy_description: Choose betray all the time
 #     move: A function that returns 'c' or 'b'
 ####
 
@@ -15,7 +15,7 @@ def move(my_history, their_history, my_score, their_score):
     my_score, their_score are ints.
     
     Make my move.
-    Returns 'c' or 'b'. 
+    Returns 'b'. 
     '''
 
     # my_history: a string with one letter (c or b) per round that has been played with this opponent.
@@ -26,7 +26,7 @@ def move(my_history, their_history, my_score, their_score):
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
     
-    return 'c'
+    return 'b'
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
